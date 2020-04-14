@@ -22,6 +22,10 @@
   "plugins": ["@typescript-eslint", "prettier"],
   "rules": {
     "prettier/prettier": "error",
+    "no-unused-expressions":["error",{
+      "allowShortCircuit": true,
+      "allowTernary": true
+    }],
     "import/extensions": [
       "error",
       "ignorePackages",
